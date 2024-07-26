@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>FocusBoost</title>
+  <link rel="stylesheet" href="styles/popup.css">
+</head>
+<body>
+  <div id="app">
+    <header>
+      <h1>FocusBoost</h1>
+    </header>
+    <main>
+      <section id="timer-section">
+        <div id="timer">
+          <span id="time">25:00</span>
+          <div class="controls">
+            <button id="start">Start</button>
+            <button id="stop">Stop</button>
+            <button id="reset">Reset</button>
+          </div>
+        </div>
+      </section>
+      <section id="goals-section">
+        <h2>Daily Goals</h2>
+        <ul id="goal-list"></ul>
+        <input type="text" id="new-goal" placeholder="Add a new goal">
+        <input type="time" id="goal-time" placeholder="Select time">
+        <button id="add-goal">Add Goal</button>
+      </section>
+      <section id="motivation-section">
+        <h2>Motivational Quote</h2>
+        <p id="motivational-quote"></p>
+      </section>
+    </main>
+  </div>
+  <script src="scripts/popup.js"></script>
+</body>
+</html>

@@ -1,0 +1,117 @@
+/* styles/popup.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  width: 300px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+  color: #333;
+}
+
+header {
+  background-color: #4CAF50;
+  color: white;
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px 5px 0 0;
+}
+
+main {
+  flex: 1;
+  width: 100%;
+  padding: 10px;
+}
+
+#timer-section, #goals-section {
+  margin-bottom: 20px;
+}
+
+#timer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#time {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.controls button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.controls button:hover {
+  background-color: #45a049;
+  transform: scale(1.05);
+}
+
+#goal-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+#goal-list li {
+  background-color: #e0e0e0;
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+#goal-list li:hover {
+  background-color: #d5d5d5;
+  transform: scale(1.02);
+}
+
+#new-goal {
+  width: 60%;
+  padding: 10px;
+  margin-right: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+#goal-time {
+  width: 30%;
+  padding: 10px;
+  margin-right: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+#add-goal {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+#add-goal:hover {
+  background-color: #45a049;
+  transform: scale(1.05);
+}
+
+#motivational-quote {
+  font-style: italic;
+  margin-top: 10px;
+}
